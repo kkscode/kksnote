@@ -26,8 +26,9 @@ categories: GCP tencent vpc
   6. 腾讯云: 更新路由表
   7. 测试连通
 - 腾讯云: 创建VPN网关
-![腾讯云VPN网关](/kksnote/images/tencent-vgw.png)
-所属网络即为要对联的VPC
+
+ ![腾讯云VPN网关](/kksnote/images/tencent-vgw.png)
+  所属网络即为要对联的VPC
 - GCP: 创建VPN gateway 并获取一个public static ip
   
   Hybrid Connectivity -> VPN -> Cloud VPN Gateways -> Create VPN gateway. 由于似乎腾讯云不支持BGP，这里的VPN options我们选Classic VPN. 
